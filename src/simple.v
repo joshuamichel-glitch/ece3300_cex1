@@ -24,14 +24,15 @@ module simple(
 // add your code here
 	always @(*) begin 
 		case(a)
-			0: results = 7'b0000000;
-			1: results = 7'b0000001;
-			2: results = 7'b0000011;
-			3: results = 7'b0000111;
-			4: results = 7'b0001111; 
-			5: results = 7'b0011111; 
-			6: results = 7'b0111111;
-			7: results = 7'b1111111;
+			0: result = 7'b0000000;
+			1: result = 7'b0000001;
+			2: result = 7'b0000011;
+			3: result = 7'b0000111;
+			4: result = 7'b0001111; 
+			5: result = 7'b0011111; 
+			6: result = 7'b0111111;
+			7: result = 7'b1111111;
+			default: result = 7'b0000000;
 		endcase 
 	end 
 
