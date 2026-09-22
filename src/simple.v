@@ -34,7 +34,7 @@ module simple(
 			7: results = 7'b1111111;
 		endcase 
 	end 
-	assign result = 0;
+
    
 endmodule
 
